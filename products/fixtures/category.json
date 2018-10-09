@@ -1,0 +1,1 @@
+[{"model": "products.category", "pk": 1, "fields": {"title": "Electronics", "created": "2018-10-09T07:25:06.416Z"}}, {"model": "products.category", "pk": 2, "fields": {"title": "Sports", "created": "2018-10-09T07:25:25.806Z"}}, {"model": "products.category", "pk": 3, "fields": {"title": "Fashion", "created": "2018-10-09T07:25:30.739Z"}}]
