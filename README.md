@@ -18,6 +18,17 @@ source path/to/env/bin/activate
 # as shown in previous step
 pip install -r requirements.txt
 
+# run migrations
+python manage.py migrate
+
+# create superuser, use it to login to admin dashboard
+python manage.py createsuperuser
+
+# run fixtures to load default data
+python manage.py loadddata category
+python manage.py loaddata products
+python manage.py loaddata sub_category
+
 # run the server, in port 8000
 python manage.py runserver 
 ```
